@@ -1,0 +1,181 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   My Portfolio
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: 'Roboto', sans-serif;
+        }
+  </style>
+ </head>
+ <body class="bg-gray-100 text-gray-900">
+  <!-- Navbar -->
+  <nav class="bg-white shadow-md">
+   <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+    <a class="text-2xl font-bold" href="#">
+     My Portfolio
+    </a>
+    <div class="space-x-4">
+     <a class="text-gray-700 hover:text-gray-900" href="#about">
+      About
+     </a>
+     <a class="text-gray-700 hover:text-gray-900" href="#projects">
+      Ideas
+     </a>
+     <a class="text-gray-700 hover:text-gray-900" href="#contact">
+      Contact
+     </a>
+    </div>
+   </div>
+  </nav>
+  <!-- Hero Section -->
+  <section class="bg-white py-20">
+   <div class="container mx-auto px-4 text-center">
+    <h1 class="text-4xl font-bold mb-4">
+     Hello, I'm Sahithyan
+    </h1>
+    <p class="text-gray-700 mb-8">
+     A passionate developer who loves to create amazing web experiences.
+    </p>
+    <img alt="A professional headshot of [Your Name] in a business casual outfit" class="mx-auto rounded-full w-48 h-48" height="300" src="cebacd34-64ff-4501-8fe1-403ac2341e2c.jpg" width="300"/>
+   </div>
+  </section>
+  <!-- About Section -->
+  <section class="bg-gray-100 py-20" id="about">
+   <div class="container mx-auto px-4">
+    <h2 class="text-3xl font-bold text-center mb-8">
+     About Me
+    </h2>
+    <div class="flex flex-col md:flex-row items-center">
+     <img alt="An image representing coding and development" class="w-full md:w-1/2 rounded-lg mb-8 md:mb-0" height="400" src="bf672907-9341-4aa9-a69b-075fa4e4a476.jpg" width="400"/>
+     <div class="md:ml-8">
+      <p class="text-gray-700 mb-4">
+       I am a web developer with a strong background in creating dynamic and responsive websites. I have a passion for coding and a knack for problem-solving. My skills include HTML, CSS, JavaScript, and various frameworks like React and Vue.js.
+      </p>
+      <p class="text-gray-700">
+       In my free time, I enjoy learning new technologies, contributing to open-source projects, and exploring the latest trends in web development.
+      </p>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- Projects Section -->
+  <section class="bg-white py-20" id="projects">
+   <div class="container mx-auto px-4">
+    <h2 class="text-3xl font-bold text-center mb-8">
+     Projects Ideas
+    </h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+     <!-- Project 1 -->
+     <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+      <img alt="Screenshot of Project 1, a responsive web application" class="rounded-lg mb-4" height="300" src="https://storage.googleapis.com/a1aa/image/-IEuWceGCKLrn6Ai0a1NtJe_6BKhAl2rM4dPCmQJG9k.jpg" width="400"/>
+      <h3 class="text-xl font-bold mb-2">
+        Local Link
+      </h3>
+      <p class="text-gray-700 mb-4">
+       A brief description of Project 1, highlighting its features and technologies used.
+      </p>
+      <a class="text-blue-500 hover:underline" href="#">
+       View Project
+      </a>
+     </div>
+     <!-- Project 2 -->
+     <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+      <img alt="Screenshot of Project 2, a mobile-friendly website" class="rounded-lg mb-4" height="300" src="https://storage.googleapis.com/a1aa/image/gfkidKU8M4ijoWvxl-y08Dnf7cd-HjInMzxPnKvHYqg.jpg" width="400"/>
+      <h3 class="text-xl font-bold mb-2">
+        Unity Hub
+      </h3>
+      <p class="text-gray-700 mb-4">
+       A brief description of Project 2, highlighting its features and technologies used.
+      </p>
+      <a class="text-blue-500 hover:underline" href="#">
+       View Project
+      </a>
+     </div>
+     <!-- Project 3 -->
+     <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+      <img alt="Screenshot of Project 3, an e-commerce platform" class="rounded-lg mb-4" height="300" src="https://storage.googleapis.com/a1aa/image/SfJLI-ot8iirsHRHhwg30JdR24k1dAkQd4z7JTYxLbM.jpg" width="400"/>
+      <h3 class="text-xl font-bold mb-2">
+        Social Circle
+      </h3>
+      <p class="text-gray-700 mb-4">
+       A brief description of Project 3, highlighting its features and technologies used.
+      </p>
+      <a class="text-blue-500 hover:underline" href="#">
+       View Project
+      </a>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- Contact Section -->
+  <section class="bg-gray-100 py-20" id="contact">
+   <div class="container mx-auto px-4">
+    <h2 class="text-3xl font-bold text-center mb-8">
+     Contact Me
+    </h2>
+    <div class="max-w-lg mx-auto bg-white p-8 rounded-lg shadow-md">
+     <form action="#" method="POST">
+      <div class="mb-4">
+       <label class="block text-gray-700 mb-2" for="name">
+        Name
+       </label>
+       <input class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" id="name" name="name" type="text"/>
+      </div>
+      <div class="mb-4">
+       <label class="block text-gray-700 mb-2" for="email">
+        Email
+       </label>
+       <input class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" id="email" name="email" type="email"/>
+      </div>
+      <div class="mb-4">
+       <label class="block text-gray-700 mb-2" for="message">
+        Message
+       </label>
+       <textarea class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" id="message" name="message" rows="4"></textarea>
+      </div>
+      <button class="w-full bg-blue-500 text-white py-2 rounded-lg hover:bg-blue-600" type="submit">
+       Send Message
+      </button>
+     </form>
+    </div>
+   </div>
+  </section>
+  <!-- Footer -->
+  <footer class="bg-white py-4">
+   <div class="container mx-auto px-4 text-center">
+    <p class="text-gray-700">
+     © 2025 My Portfolio. All rights reserved.
+    </p>
+    <div class="mt-4 space-x-4">
+     <a class="text-gray-700 hover:text-gray-900" href="#">
+      <i class="fab fa-facebook-f">
+      </i>
+     </a>
+     <a class="text-gray-700 hover:text-gray-900" href="#">
+      <i class="fab fa-twitter">
+      </i>
+     </a>
+     <a class="text-gray-700 hover:text-gray-900" href="#">
+      <i class="fab fa-linkedin-in">
+      </i>
+     </a>
+     <a class="text-gray-700 hover:text-gray-900" href="#">
+      <i class="fab fa-github">
+      </i>
+     </a>
+    </div>
+   </div>
+  </footer>
+ </body>
+</html>
+
+
+
